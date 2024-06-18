@@ -1,7 +1,7 @@
 #Para estos ejercicios utilizaremos las alturas recolectadas por Francis Galton
-#Para sus estudios genéticos, en este caso la de los niños
+#Para sus estudios genÃ©ticos, en este caso la de los niÃ±os
 library(HistData)
 data(Galton)
 x <- Galton$child
-#Ahora calcula la desviación estándar y 
-#la desviación media absoluta (MAD)
+#Ahora calcula la desviaciÃ³n estÃ¡ndar(sd-standard deviation) y 
+#la desviaciÃ³n media absoluta(MAD)

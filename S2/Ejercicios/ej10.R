@@ -6,10 +6,10 @@ library(ggplot2)
 library(dslabs)
 data(murders)
 
-#Vamos a cambiar ahora el color de todos los textos lables del grafico 
+#Vamos a cambiar ahora el color de todos los textos 'labels' del gráfico 
 #a azules
-#Edita el siguiente c�digo pas�ndole el argumento de color
+#Edita el siguiente código pasándole el argumento de 'color'
 #Recuerda que no es necesario mapear el color con cada punto
-#el argumento color y col son equivalentes asi que puedes usar cualquiera
+#el argumento 'color' y 'col' son equivalentes así que puedes usar cualquiera:
 murders %>% ggplot(aes(population, total,label= abb)) +
   geom_label()

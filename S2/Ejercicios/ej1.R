@@ -1,6 +1,6 @@
 #Cargamos los datos de asesinatos
 #Recordar que ambos paquetes ggplot2 y dplyr 
-#se encuentran en la librería tidyverse
+#se encuentran en la librerÃ­a tidyverse
 library(dplyr)
 library(ggplot2)
 library(dslabs)
@@ -11,7 +11,7 @@ p <- ggplot(data = murders)
 #Como la primera variable siempre son los datos
 #R asume y no es necesario asignarlo
 p <- ggplot(murders)
-#Con la librería dplyr podemos también pipear el contenido
+#Con la librerÃ­a dplyr podemos tambiÃ©n pipear el contenido
 p <- murders %>% ggplot()
 
-#Imprime ahora la clase del objeto p
+#Imprime y analiza la clase y estructura del objeto p

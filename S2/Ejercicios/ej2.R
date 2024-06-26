@@ -1,6 +1,6 @@
 #Cargamos los datos de asesinatos
 #Recordar que ambos paquetes ggplot2 y dplyr 
-#se encuentran en la librer�a tidyverse
+#se encuentran en la librería tidyverse
 library(dplyr)
 library(ggplot2)
 library(dslabs)
@@ -17,7 +17,7 @@ x
 p <- ggplot(murders)
 
 #Imprime el objeto p y describe lo que ves
-#op1) El c�digo no imprime nada
-#op2) Se imprime un cuadrado blanco
-#op3) Se imprime un gr�fico de densidad
-#op4) Se imprime un histograma
+#op1) El código no imprime nada
+#op2) Se imprime en la pestaña de plot un cuadrado blanco
+#op3) Se imprime en la pestaña de plot un gráfico de densidad
+#op4) Se imprime en la pestaña de plot un histograma

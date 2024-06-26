@@ -1,21 +1,21 @@
 #Cargamos los datos de asesinatos
 #Recordar que ambos paquetes ggplot2 y dplyr 
-#se encuentran en la librería tidyverse
+#se encuentran en la librerÃ­a tidyverse
 library(dplyr)
 library(ggplot2)
 library(dslabs)
 data(heights)
 
 
-#En el ejercicio anterior realizar dos gráficos de densidad
-#uno para cada sexo con el código
+#En el ejercicio anterior realizamos dos grÃ¡ficos de densidad
+#uno para cada sexo con el cÃ³digo
 heights %>% 
   ggplot(aes(height, group = sex)) + 
   geom_density()
-#Utilizando los parámetros color o fill en el argumento puedes graficar un 
-#color para cada gráfico.
-#SI por ejemplo escribimos color = sex como parámetro del mapeo, ggplot  
-#entiende que queremos un color por cada sexo entonces tiene que hacer dos gráficos
-#EN este caso se dibujaran dos gráficos de densidad diferentes cada uno con un color asociado 
-#y no es necesario agrupar por sexo como habíamos hecho con group = sex.
-#Modifica entonces las líneas de código anteriores para obtener diferentes colores en los gráficos
+#Utilizando los parÃ¡metros color o fill en el argumento puedes graficar un 
+#color para cada grÃ¡fico.
+#Si por ejemplo escribimos color = sex como parÃ¡metro del mapeo, ggplot  
+#entiende que queremos un color por cada sexo entonces tiene que hacer dos grÃ¡ficos
+#En este caso se dibujaran dos grÃ¡ficos de densidad diferentes cada uno con un color asociado 
+#y no es necesario agrupar por sexo como habÃ­amos hecho con group = sex.
+#Modifica entonces las lÃ­neas de cÃ³digo anteriores para obtener diferentes colores en los grÃ¡ficos

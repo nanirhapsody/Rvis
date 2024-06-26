@@ -1,8 +1,9 @@
 #Cargamos los datos de asesinatos
 #Recordar que ambos paquetes ggplot2 y dplyr 
-#se encuentran en la librer�a tidyverse
+#se encuentran en la librería tidyverse
 library(dplyr)
 library(ggplot2)
+#Recuerda que esta útlima libería es la que tiene el dataframe a utilizar
 library(dslabs)
 data(heights)
 

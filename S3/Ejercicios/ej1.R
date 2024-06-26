@@ -3,11 +3,11 @@ library(ggplot2)
 library(dslabs)
 data(gapminder)
 
-#Utilizando la librería de ggplot y la capa de puntos crea un gráfico de puntos
-#o diagrama de dispersión de la esperanza de vida vs la fertilidad para el continente africano
-# en el año 2012
+#Utilizando la librerÃ­a de ggplot y la capa de puntos crea un grÃ¡fico de puntos
+#o diagrama de dispersiÃ³n de la esperanza de vida vs la fertilidad para el continente africano
+# en el aÃ±o 2012
 
-## Completa las partes de código para filter y aes
+## Completa las partes de cÃ³digo para 'filter' y 'aes'
 gapminder %>% filter( & ) %>%
   ggplot(aes( , )) +
   geom_point()

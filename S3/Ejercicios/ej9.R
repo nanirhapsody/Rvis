@@ -3,15 +3,15 @@ library(ggplot2)
 library(dslabs)
 data(gapminder)
 
-#DÛlares por dÌa parte3
+#D√≥lares por d√≠a parte3
 
-#Ahora combinaremos gr·ficos de ejercicios anteriores para graficar
+#Ahora combinaremos gr√°ficos de ejercicios anteriores para graficar
 #densidades al paso de los anos
 
-#Crea la variable dollars_per_day como en el ejercicio 7 pero para 
-#paÌses Africanos en el periodo de 1970 a 2010. 
-#Aseg˙rate de eliminar los valores NA
-#Crea un gr·fico de densidad de dÛlares por dÌa para el periodo de
-#1970 a 2020 utilizando un logaritmo en base 2 para el eje x
-#Utiliza facet_grid para mostrar un gr·fico diferente para 1970 y 2010
+#Crea la variable dollars_per_day como en el ejercicio 7 pero solo para 
+#pa√≠ses Africanos en los a√±os 1970 y 2010. 
+#Aseg√∫rate de eliminar los valores NA
+#Crea un gr√°fico de densidad de d√≥lares por d√≠a para ambos a√±os:
+#1970 y 2010, utilizando un logaritmo en base 2 para el eje x
+#Utiliza facet_grid para mostrar un gr√°fico diferente para cada a√±o.
 
